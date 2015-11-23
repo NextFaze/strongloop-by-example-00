@@ -1,27 +1,34 @@
 {
-  "name": "App",
+  "name": "Review",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "name": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "rating": {
+      "type": "number"
+    },
+    "comments": {
       "type": "string",
       "required": true
     }
   },
   "validations": [],
   "relations": {
-    "reviews": {
-      "type": "hasMany",
-      "model": "Review",
+    "app": {
+      "type": "belongsTo",
+      "model": "App",
       "foreignKey": ""
     },
-    "reviewers": {
-      "type": "hasMany",
+    "reviewer": {
+      "type": "belongsTo",
       "model": "Reviewer",
-      "foreignKey": ""
+      "foreignKey": "publisherId"
     }
   },
   "acls": [],

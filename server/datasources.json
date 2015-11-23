@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "postgresDs": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "strongloop_by_example_00",
+    "name": "postgresDs",
+    "connector": "postgresql",
+    "user": "postgres"
   }
 }

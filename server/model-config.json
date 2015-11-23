@@ -33,7 +33,15 @@
     "public": false
   },
   "App": {
-    "dataSource": "db",
+    "dataSource": "postgresDs",
+    "public": true
+  },
+  "Reviewer": {
+    "dataSource": "postgresDs",
+    "public": true
+  },
+  "Review": {
+    "dataSource": "postgresDs",
     "public": true
   }
 }
