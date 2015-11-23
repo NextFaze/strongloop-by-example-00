@@ -8,3 +8,4 @@
 * `nvm install 0.12.7`
 * `npm install -g strongloop`
 * `node .`
+* And in another tab `slc arc`
