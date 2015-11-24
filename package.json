@@ -1,5 +1,5 @@
 {
-  "name": "loopback-by-example-00",
+  "name": "strongloop-by-example-00",
   "version": "1.0.0",
   "main": "server/server.js",
   "scripts": {
